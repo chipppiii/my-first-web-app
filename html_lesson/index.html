@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>和の空間 鍼灸院 | ダミーサイト</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* 配色定義 */
+        :root {
+            --bg-color: #f9f7f2;      /* 生成り（きなり）：背景 */
+            --main-color: #6b7e5f;    /* 抹茶色（まっちゃ）：アクセント */
+            --text-color: #33322e;    /* 墨色（すみいろ）：文字 */
+            --accent-color: #a67c52;  /* 琥珀色（こはく）：温かみ */
+            --border-color: #d1ccc0;  /* 砂色（すないろ）：境界線 */
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Serif JP', serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.8;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2rem;
+            letter-spacing: 0.2em;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* セクション共通 */
+        section {
+            margin-bottom: 80px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 40px;
+            position: relative;
+            display: block;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 40px;
+            height: 1px;
+            background: var(--main-color);
+            margin: 15px auto 0;
+        }
+
+        /* メインビジュアル風 */
+        .hero {
+            background-color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+            border: 10px solid #fff;
+            outline: 1px solid var(--border-color);
+            margin-bottom: 60px;
+        }
+
+        /* メニュー表 */
+        .menu-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .menu-table th, .menu-table td {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        .menu-table th {
+            font-weight: 700;
+            color: var(--main-color);
+            width: 70%;
+        }
+
+        .menu-table td {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        /* ダミーテキスト用装飾 */
+        .dummy-text {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #eeeae0;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.9rem;
+        }
+
+        /* レスポンシブ */
+        @media (max-width: 600px) {
+            .menu-table th, .menu-table td {
+                padding: 15px 10px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ダミーの鍼灸院屋号</h1>
+        <p>心と体を整える、和のひととき</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="hero">
+            <h2 class="section-title">ダミーのキャッチコピー</h2>
+            <p class="dummy-text">ここにはダミーの文章が入ります。日々の喧騒を忘れ、静かな空間で心身ともにリラックスしていただけるよう、一人ひとりに合わせた施術を心がけております。サンプルテキストとして、当院のコンセプトや想いをここに記載します。</p>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title">当院について</h2>
+            <p class="dummy-text">
+                ダミーテキストです。和の伝統的な技法と現代の知見を融合させたアプローチをご提案します。ここには具体的な施術のこだわりや、院内の雰囲気、使用している道具についての説明が入ります。サンプル文章が続きますが、レイアウトの確認用としてご覧ください。
+            </p>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">お品書き（メニュー）</h2>
+            <table class="menu-table">
+                <tr>
+                    <th>ダミーの施術名 A（全身調整）</th>
+                    <td>&yen;6,000</td>
+                </tr>
+                <tr>
+                    <th>ダミーの施術名 B（部分集中）</th>
+                    <td>&yen;4,500</td>
+                </tr>
+                <tr>
+                    <th>ダミーの施術名 C（美容鍼灸）</th>
+                    <td>&yen;8,000</td>
+                </tr>
+                <tr>
+                    <th>ダミーの施術名 D（お灸コース）</th>
+                    <td>&yen;3,000</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title">お問い合わせ</h2>
+            <p style="text-align: center;">
+                ダミーの住所：東京都○○区△△ 0-0-0<br>
+                ダミーの電話：03-0000-0000<br>
+                受付時間：10:00 〜 19:00（水曜定休）
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2024 ダミー鍼灸院. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
+
+
+
